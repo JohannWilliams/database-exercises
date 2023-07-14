@@ -25,4 +25,4 @@ FROM employees
 WHERE YEAR(hire_date) BETWEEN 1990 and 1999
 AND MONTH(birth_date) = 12
 AND DAY(birth_date) = 25
-ORDER BY birth_date ASC, hire_date DESC;
+ORDER BY DATEDIFF(CURDATE(), hire_date);
