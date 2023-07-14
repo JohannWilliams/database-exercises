@@ -33,3 +33,13 @@ USE codeup_test_db;
             ('Pink Floyd', 'The Wall', 1979, 17.6, 'Progressive rock'),
             ('Santana', 'Supernatural', 1999, 20.5, 'Rock'),
             ('Guns N'' Roses', 'Appetite for Destruction', 1987, 21.6, 'Hard rock');
+
+
+insert into albums(artist, name, release_date, sales, genre)
+values ('Pink Floyd', 'The Dark Side of the Moon', 1973, 24.2, 'Progressive rock');
+
+insert into albums(artist, name, release_date, sales, genre)
+values ('Santana', 'The Dark Side of the Moon', 1973, 24.2, 'Progressive rock');
+
+insert into albums(artist, name, release_date, sales, genre)
+values ('The Beatles', 'The Dark Side of the Moon', 1973, 24.2, 'Progressive rock');
